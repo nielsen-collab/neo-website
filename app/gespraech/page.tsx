@@ -1,5 +1,4 @@
 import ConversationHero from "./components/ConversationHero";
-import ConversationForm from "./components/ConversationForm";
 import Footer from "../components/Footer";
 
 export default function GespraechPage() {
@@ -8,9 +7,7 @@ export default function GespraechPage() {
 
       <ConversationHero />
 
-      <ConversationForm />
-
-      <Footer />
+      <Footer showCTA={false} />
 
     </main>
   );
