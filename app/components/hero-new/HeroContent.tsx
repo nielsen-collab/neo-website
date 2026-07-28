@@ -60,7 +60,7 @@ export default function HeroContent() {
 
       <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap md:mt-14 md:gap-5">
 
-        <PremiumButton href="#kontakt">
+        <PremiumButton href="/executive-briefing">
           Erstgespräch vereinbaren
         </PremiumButton>
 
