@@ -15,12 +15,8 @@ export default function DatenschutzPage() {
       >
         <p>
           Der verantwortungsvolle Umgang mit personenbezogenen Daten ist für
-          <strong> NEO – Nielsen Energy Operations</strong> ein
-          selbstverständlicher Bestandteil einer vertrauensvollen
-          Zusammenarbeit. Der Schutz Ihrer Privatsphäre, die Sicherheit Ihrer
-          Daten sowie ein transparenter Umgang mit personenbezogenen
-          Informationen bilden die Grundlage unseres Handelns – sowohl bei der
-          Nutzung unserer Website als auch im Rahmen unserer Dienstleistungen.
+          <strong> NEO – Nielsen Energy Operations</strong> ein wesentlicher
+          Bestandteil einer vertrauensvollen Zusammenarbeit.
         </p>
 
         <p>
@@ -31,21 +27,12 @@ export default function DatenschutzPage() {
         </p>
 
         <p>
-          Diese Website befindet sich derzeit noch in der Entwicklung. Die
-          Datenschutzerklärung wurde bewusst so aufgebaut, dass sie bereits
-          heute transparent über die Datenverarbeitung informiert und vor dem
-          Produktivbetrieb um die tatsächlich eingesetzten technischen Dienste
-          ergänzt wird.
-        </p>
-
-        <p>
-          Mit dieser Datenschutzerklärung informieren wir Sie darüber, welche
-          personenbezogenen Daten beim Besuch unserer Website verarbeitet
-          werden, zu welchen Zwecken dies geschieht, auf welcher
-          Rechtsgrundlage die Verarbeitung erfolgt und welche Rechte Ihnen als
-          betroffene Person zustehen.
+          Diese Datenschutzerklärung informiert Sie darüber, welche Daten beim
+          Besuch unserer Website und bei der Kontaktaufnahme verarbeitet werden,
+          zu welchen Zwecken dies geschieht und welche Rechte Ihnen zustehen.
         </p>
       </LegalSection>
+
 
       <LegalSection
         number="02"
@@ -78,22 +65,20 @@ export default function DatenschutzPage() {
         </p>
       </LegalSection>
 
+
       <LegalSection
         number="03"
         title="Hosting und technische Bereitstellung"
       >
         <p>
-          Für die Bereitstellung unserer Website wird ein professioneller
-          Hosting-Dienstleister eingesetzt. Zum Zeitpunkt der Erstellung
-          dieser Datenschutzerklärung befindet sich die Website noch im
-          Entwicklungsstadium. Der endgültige Hosting-Anbieter wird vor dem
-          Produktivbetrieb ergänzt.
+          Unsere Website wird über einen professionellen Hosting-Dienstleister
+          bereitgestellt.
         </p>
 
         <p>
-          Beim Aufruf unserer Website werden aus technischen Gründen
-          automatisch Informationen verarbeitet, die Ihr Browser an den Server
-          übermittelt. Hierzu können insbesondere gehören:
+          Beim Aufruf unserer Website werden aus technischen Gründen automatisch
+          Informationen verarbeitet, die Ihr Browser an den Server übermittelt.
+          Hierzu können insbesondere gehören:
         </p>
 
         <ul>
@@ -103,48 +88,44 @@ export default function DatenschutzPage() {
           <li>Browsertyp und Browserversion</li>
           <li>verwendetes Betriebssystem</li>
           <li>Referrer-URL</li>
-          <li>Name des Internet-Service-Providers</li>
         </ul>
 
         <p>
-          Die Verarbeitung erfolgt ausschließlich zur technischen
-          Bereitstellung, Stabilität und Sicherheit der Website sowie zur
-          Erkennung und Abwehr technischer Störungen und
-          Missbrauchsversuche. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f
+          Die Verarbeitung erfolgt zur technischen Bereitstellung, Sicherheit
+          und Stabilität der Website auf Grundlage von Art. 6 Abs. 1 lit. f
           DSGVO.
         </p>
-      </LegalSection>      <LegalSection
+      </LegalSection>
+
+
+      <LegalSection
         number="04"
         title="Server-Logfiles"
       >
         <p>
-          Der Hosting-Dienstleister erhebt und speichert automatisch
-          Informationen in sogenannten Server-Logfiles, die Ihr Browser
-          automatisch übermittelt.
+          Der Hosting-Dienstleister verarbeitet technische Zugriffsdaten in
+          sogenannten Server-Logfiles.
         </p>
 
         <p>
-          Diese Daten dienen ausschließlich der technischen Überwachung,
-          Fehleranalyse, Systemsicherheit und Optimierung eines stabilen
-          Websitebetriebs. Eine Zusammenführung mit anderen
-          personenbezogenen Daten erfolgt nicht.
+          Diese Daten dienen ausschließlich der Fehleranalyse, Systemsicherheit
+          und dem Schutz vor Missbrauch.
         </p>
       </LegalSection>
+
 
       <LegalSection
         number="05"
         title="Kontaktaufnahme"
       >
         <p>
-          Wenn Sie mit uns Kontakt aufnehmen – beispielsweise per E-Mail
-          oder telefonisch – verarbeiten wir die von Ihnen übermittelten
-          personenbezogenen Daten ausschließlich zur Bearbeitung Ihres
-          Anliegens.
+          Wenn Sie mit NEO Kontakt aufnehmen – beispielsweise per E-Mail,
+          telefonisch oder über das Executive Briefing Formular – verarbeiten
+          wir die von Ihnen übermittelten Daten zur Bearbeitung Ihres Anliegens.
         </p>
 
         <p>
-          Je nach Art Ihrer Anfrage können insbesondere folgende Daten
-          verarbeitet werden:
+          Dabei können insbesondere folgende Daten verarbeitet werden:
         </p>
 
         <ul>
@@ -157,124 +138,129 @@ export default function DatenschutzPage() {
         </ul>
 
         <p>
-          Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b
-          oder lit. f DSGVO. Eine Weitergabe Ihrer Daten erfolgt
-          grundsätzlich nicht, sofern keine gesetzliche Verpflichtung
-          besteht oder Sie ausdrücklich eingewilligt haben.
+          Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b oder
+          lit. f DSGVO.
         </p>
       </LegalSection>
+
 
       <LegalSection
         number="06"
-        title="Cookies"
+        title="Executive Briefing Formular"
       >
         <p>
-          Unsere Website verwendet derzeit ausschließlich technisch
-          erforderliche Funktionen, die für die Bereitstellung der Website
-          notwendig sind. Zum aktuellen Entwicklungsstand kommen keine
-          einwilligungspflichtigen Analyse-, Marketing- oder
-          Tracking-Cookies zum Einsatz.
+          Über das Executive Briefing Formular können Interessenten eine
+          persönliche Anfrage an NEO übermitteln.
         </p>
 
         <p>
-          Sollte die Website künftig um entsprechende Dienste erweitert
-          werden, wird diese Datenschutzerklärung angepasst und – sofern
-          gesetzlich erforderlich – ein entsprechendes
-          Einwilligungsverfahren implementiert.
-        </p>
-      </LegalSection>
-
-      <LegalSection
-        number="07"
-        title="Speicherdauer"
-      >
-        <p>
-          Personenbezogene Daten speichern wir grundsätzlich nur so lange,
-          wie dies zur Erfüllung des jeweiligen Verarbeitungszwecks
-          erforderlich ist oder gesetzliche Aufbewahrungspflichten
-          bestehen.
-        </p>
-
-        <p>
-          Nach Wegfall des jeweiligen Zwecks oder Ablauf gesetzlicher
-          Aufbewahrungsfristen werden personenbezogene Daten entsprechend
-          den gesetzlichen Vorgaben gelöscht oder in ihrer Verarbeitung
-          eingeschränkt.
-        </p>
-      </LegalSection>
-
-      <LegalSection
-        number="08"
-        title="SSL-/TLS-Verschlüsselung"
-      >
-        <p>
-          Zum Schutz vertraulicher Inhalte und personenbezogener Daten
-          nutzt diese Website beim Produktivbetrieb eine zeitgemäße
-          SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung
-          erkennen Sie unter anderem daran, dass die Adresszeile Ihres
-          Browsers mit <strong>https://</strong> beginnt.
-        </p>
-
-        <p>
-          Durch die Verschlüsselung können übermittelte Daten nicht von
-          unbefugten Dritten mitgelesen oder manipuliert werden.
-        </p>
-      </LegalSection>      <LegalSection
-        number="09"
-        title="Ihre Rechte"
-      >
-        <p>
-          Ihnen stehen nach der Datenschutz-Grundverordnung (DSGVO)
-          insbesondere folgende Rechte zu:
+          Hierbei werden insbesondere folgende Angaben verarbeitet:
         </p>
 
         <ul>
-          <li>Auskunft über Ihre gespeicherten personenbezogenen Daten</li>
-          <li>Berichtigung unrichtiger oder unvollständiger Daten</li>
+          <li>Vorname</li>
+          <li>Nachname</li>
+          <li>Unternehmen</li>
+          <li>E-Mail-Adresse</li>
+          <li>Nachricht</li>
+        </ul>
+
+        <p>
+          Die Verarbeitung erfolgt ausschließlich zur Bearbeitung der Anfrage
+          und zur persönlichen Kontaktaufnahme.
+        </p>
+
+        <p>
+          Eine automatische Speicherung in einer Datenbank oder einem
+          CRM-System erfolgt derzeit nicht. Die Anfrage wird per E-Mail an NEO
+          übermittelt und im Rahmen der geschäftlichen Kommunikation
+          verarbeitet.
+        </p>
+      </LegalSection>
+
+
+      <LegalSection
+        number="07"
+        title="Cookies"
+      >
+        <p>
+          Unsere Website verwendet technisch notwendige Funktionen, die für den
+          Betrieb der Website erforderlich sind.
+        </p>
+
+        <p>
+          Der eingesetzte Cookie-Banner dient der Verwaltung Ihrer Auswahl.
+          Aktuell werden keine Analyse-, Marketing- oder Tracking-Cookies
+          eingesetzt.
+        </p>
+
+        <p>
+          Sollten zukünftig zusätzliche Dienste wie Analyse-, Statistik-,
+          Marketing- oder externe Services eingebunden werden, wird die
+          Datenschutzerklärung entsprechend ergänzt.
+        </p>
+      </LegalSection>
+
+
+      <LegalSection
+        number="08"
+        title="Speicherdauer"
+      >
+        <p>
+          Personenbezogene Daten werden nur so lange gespeichert, wie dies für
+          den jeweiligen Zweck erforderlich ist oder gesetzliche
+          Aufbewahrungspflichten bestehen.
+        </p>
+
+        <p>
+          Nach Wegfall des jeweiligen Zwecks werden Daten entsprechend den
+          gesetzlichen Vorgaben gelöscht oder eingeschränkt verarbeitet.
+        </p>
+      </LegalSection>
+
+
+      <LegalSection
+        number="09"
+        title="SSL-/TLS-Verschlüsselung"
+      >
+        <p>
+          Diese Website nutzt eine SSL-/TLS-Verschlüsselung zum Schutz
+          vertraulicher Inhalte und personenbezogener Daten.
+        </p>
+      </LegalSection>
+
+
+      <LegalSection
+        number="10"
+        title="Ihre Rechte"
+      >
+        <p>
+          Ihnen stehen nach der DSGVO insbesondere folgende Rechte zu:
+        </p>
+
+        <ul>
+          <li>Auskunft über gespeicherte personenbezogene Daten</li>
+          <li>Berichtigung unrichtiger Daten</li>
           <li>Löschung personenbezogener Daten</li>
           <li>Einschränkung der Verarbeitung</li>
           <li>Datenübertragbarkeit</li>
           <li>Widerspruch gegen die Verarbeitung</li>
-          <li>Widerruf einer erteilten Einwilligung</li>
+          <li>Widerruf erteilter Einwilligungen</li>
         </ul>
-
-        <p>
-          Darüber hinaus haben Sie das Recht, sich bei einer zuständigen
-          Datenschutzaufsichtsbehörde über die Verarbeitung Ihrer
-          personenbezogenen Daten zu beschweren.
-        </p>
       </LegalSection>
 
-      <LegalSection
-        number="10"
-        title="Datensicherheit"
-      >
-        <p>
-          Der Schutz Ihrer Daten besitzt für NEO einen hohen Stellenwert.
-          Wir treffen angemessene technische und organisatorische
-          Maßnahmen, um personenbezogene Daten vor Verlust,
-          Manipulation, unbefugtem Zugriff oder sonstigen unzulässigen
-          Verarbeitungen zu schützen.
-        </p>
-
-        <p>
-          Unsere Sicherheitsmaßnahmen werden regelmäßig überprüft und
-          entsprechend der technischen Entwicklung kontinuierlich
-          weiterentwickelt.
-        </p>
-      </LegalSection>
 
       <LegalSection
         number="11"
-        title="Änderungen dieser Datenschutzerklärung"
+        title="Datensicherheit"
       >
         <p>
-          Diese Datenschutzerklärung wird regelmäßig überprüft und
-          angepasst, sofern rechtliche, technische oder organisatorische
-          Änderungen dies erforderlich machen. Maßgeblich ist jeweils die
-          auf dieser Website veröffentlichte aktuelle Fassung.
+          NEO trifft angemessene technische und organisatorische Maßnahmen, um
+          personenbezogene Daten vor Verlust, Manipulation oder unbefugtem
+          Zugriff zu schützen.
         </p>
       </LegalSection>
+
 
       <LegalSection
         number="12"
@@ -282,26 +268,16 @@ export default function DatenschutzPage() {
         last
       >
         <p>
-          Die Website von NEO wird kontinuierlich weiterentwickelt. Im
-          Zuge zukünftiger Erweiterungen können zusätzliche Funktionen
-          oder Dienste integriert werden, bei denen personenbezogene
-          Daten verarbeitet werden.
+          NEO entwickelt seine digitalen Services kontinuierlich weiter.
         </p>
 
         <p>
-          Hierzu können beispielsweise ein Kontaktformular,
-          Terminbuchungssysteme, Analyse- und Statistikdienste,
-          Karten- oder Standortfunktionen, Newsletter,
-          KI-gestützte Anwendungen oder weitere digitale Services
-          gehören.
-        </p>
-
-        <p>
-          Sofern künftig zusätzliche personenbezogene Daten verarbeitet
-          werden, wird diese Datenschutzerklärung vor Inbetriebnahme der
-          jeweiligen Funktion entsprechend ergänzt.
+          Sollten zukünftig zusätzliche Funktionen wie Terminbuchungen,
+          Newsletter, Analyse- oder weitere digitale Dienste eingesetzt werden,
+          erfolgt eine entsprechende Anpassung dieser Datenschutzerklärung.
         </p>
       </LegalSection>
+
     </LegalLayout>
   );
 }

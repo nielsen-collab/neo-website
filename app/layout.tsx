@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import CookieBanner from "./components/CookieBanner";
+
 export const metadata: Metadata = {
   title: "NEO | Nielsen Energy Operations",
   description:
@@ -14,7 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>{children}</body>
+      <body>
+
+        {children}
+
+        <CookieBanner />
+
+      </body>
     </html>
   );
 }
