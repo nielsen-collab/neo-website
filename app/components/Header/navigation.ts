@@ -1,17 +1,17 @@
 export const navigation = [
   {
     label: "Lösungen",
-    href: "#services",
+    href: "/#services",
     id: "services",
   },
   {
     label: "Arbeitsweise",
-    href: "#process",
+    href: "/#process",
     id: "process",
   },
   {
     label: "Gründer",
-    href: "#founder",
+    href: "/#founder",
     id: "founder",
   },
   {

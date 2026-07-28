@@ -8,19 +8,22 @@ export default function Founder() {
 
       <div className="pointer-events-none absolute inset-0">
 
-        <div className="absolute left-[-220px] top-10 h-[700px] w-[700px] rounded-full bg-blue-500/5 blur-[180px]" />
+        <div className="absolute left-[-220px] top-10 h-[500px] w-[500px] rounded-full bg-blue-500/5 blur-[80px]" />
 
-        <div className="absolute right-[-260px] bottom-0 h-[700px] w-[700px] rounded-full bg-slate-200/30 blur-[200px]" />
+        <div className="absolute right-[-260px] bottom-0 h-[500px] w-[500px] rounded-full bg-slate-200/30 blur-[80px]" />
 
       </div>
 
+
       <div className="relative mx-auto grid max-w-[1500px] items-center gap-14 px-6 md:px-10 lg:grid-cols-[38%_62%] lg:gap-16 xl:grid-cols-[42%_58%] xl:gap-20 lg:px-20">
+
 
         {/* Portrait */}
 
         <div className="group relative mx-auto w-full max-w-[430px] lg:mx-0 lg:max-w-[380px] xl:max-w-none">
 
-          <div className="absolute -inset-6 lg:-inset-8 rounded-[42px] bg-blue-500/10 blur-3xl opacity-0 transition duration-700 group-hover:opacity-100" />
+          <div className="absolute -inset-6 rounded-[42px] bg-blue-500/10 blur-2xl opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
+
 
           <div
             className="
@@ -30,14 +33,10 @@ export default function Founder() {
               lg:rounded-[34px]
               border
               border-white/70
-              bg-white/70
+              bg-white/90
               p-2
               lg:p-3
-              backdrop-blur-xl
-              shadow-[0_35px_90px_rgba(15,23,42,.10)]
-              transition-all
-              duration-700
-              group-hover:-translate-y-1
+              shadow-[0_25px_60px_rgba(15,23,42,.10)]
             "
           >
 
@@ -55,9 +54,11 @@ export default function Founder() {
 
         </div>
 
+
         {/* Inhalt */}
 
         <div className="mx-auto w-full max-w-[620px] lg:mx-0 lg:max-w-[700px]">
+
 
           <div className="flex items-center gap-4">
 
@@ -71,6 +72,7 @@ export default function Founder() {
 
           </div>
 
+
           <h2
             className="
               mt-6
@@ -79,13 +81,10 @@ export default function Founder() {
               leading-[1.05]
               tracking-[-0.05em]
               text-slate-900
-
               sm:text-[50px]
-
               lg:mt-8
               lg:text-[54px]
               lg:leading-[1.02]
-
               xl:text-[66px]
             "
           >
@@ -98,7 +97,9 @@ export default function Founder() {
 
           </h2>
 
+
           <div className="mt-8 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-10 lg:w-24" />
+
 
           <p className="mt-8 text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-10 lg:text-[22px] lg:leading-[1.9]">
 
@@ -106,6 +107,7 @@ export default function Founder() {
             dass Unternehmen keine weiteren Berichte benötigen.
 
           </p>
+
 
           <p className="mt-6 text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-8 lg:text-[22px] lg:leading-[1.9]">
 
@@ -116,6 +118,7 @@ export default function Founder() {
 
           </p>
 
+
           <p className="mt-6 text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-8 lg:text-[22px] lg:leading-[1.9]">
 
             Technik schafft Transparenz.
@@ -123,6 +126,7 @@ export default function Founder() {
             wenn Menschen gemeinsam tragfähige Entscheidungen treffen.
 
           </p>
+
 
           <div className="mt-10 border-l-2 border-blue-600 pl-6 lg:mt-14 lg:pl-8">
 
@@ -138,7 +142,9 @@ export default function Founder() {
 
           </div>
 
+
           <div className="mt-10 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-14 lg:w-24" />
+
 
           <p className="mt-6 text-[17px] font-medium tracking-[0.02em] text-slate-900 lg:mt-8 lg:text-[18px]">
 
@@ -146,11 +152,13 @@ export default function Founder() {
 
           </p>
 
+
           <p className="mt-2 text-[15px] text-slate-500 lg:text-[16px]">
 
             Gründer · Nielsen Energy Operations
 
           </p>
+
 
         </div>
 
