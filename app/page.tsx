@@ -8,8 +8,6 @@ import Process from "./components/Process";
 import Founder from "./components/Founder";
 import Footer from "./components/Footer";
 
-import FadeIn from "./components/ui/FadeIn";
-
 export default function Home() {
   return (
     <>
@@ -21,40 +19,28 @@ export default function Home() {
           <Hero />
         </section>
 
-        {/* TEST: FadeIn entfernt */}
-
         <section id="services">
           <Services />
         </section>
 
         <section id="whyneo">
-          <FadeIn>
-            <WhyNeo />
-          </FadeIn>
+          <WhyNeo />
         </section>
 
         <section id="attitude">
-          <FadeIn>
-            <Attitude />
-          </FadeIn>
+          <Attitude />
         </section>
 
         <section id="process">
-          <FadeIn>
-            <Process />
-          </FadeIn>
+          <Process />
         </section>
 
         <section id="founder">
-          <FadeIn>
-            <Founder />
-          </FadeIn>
+          <Founder />
         </section>
 
         <section id="kontakt">
-          <FadeIn>
-            <Footer />
-          </FadeIn>
+          <Footer />
         </section>
 
       </main>

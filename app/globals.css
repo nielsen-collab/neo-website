@@ -14,7 +14,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   background:
     radial-gradient(
       circle at top right,
-      rgba(37,99,235,0.045),
+      rgba(37,99,blue,0.045),
       transparent 38%
     ),
     radial-gradient(

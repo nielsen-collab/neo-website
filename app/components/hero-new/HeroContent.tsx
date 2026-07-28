@@ -3,7 +3,7 @@ import PremiumDivider from "../ui/PremiumDivider";
 
 export default function HeroContent() {
   return (
-    <div className="relative max-w-[610px]">
+    <div className="max-w-[610px]">
 
       <div className="mb-8 flex items-center gap-4 md:mb-10">
 
@@ -74,21 +74,13 @@ export default function HeroContent() {
         <p className="mt-3 text-[14px] leading-8 text-slate-600 md:mt-5 md:text-[15px]">
 
           DIN EN 16247
-
           <span className="mx-3 text-blue-600 md:mx-4">•</span>
-
           DIN V 18599
-
           <span className="mx-3 text-blue-600 md:mx-4">•</span>
-
           ISO 50001
-
           <span className="mx-3 text-blue-600 md:mx-4">•</span>
-
           ISO 14001
-
           <span className="mx-3 text-blue-600 md:mx-4">•</span>
-
           EDL-G / EnEfG
 
         </p>
