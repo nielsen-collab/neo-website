@@ -12,11 +12,7 @@ export default function Hero() {
 
         <div className="grid items-start gap-10 md:gap-16 lg:gap-24 lg:grid-cols-[1.05fr_0.95fr]">
 
-          {/* Linke Spalte */}
-
           <HeroContent />
-
-          {/* Rechte Spalte */}
 
           <div className="pt-6">
 

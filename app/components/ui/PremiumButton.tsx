@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ReactNode } from "react";
 
 type PremiumButtonProps = {
@@ -11,18 +10,26 @@ export default function PremiumButton({
   children,
 }: PremiumButtonProps) {
   return (
-    <Link
+    <a
       href={href}
-      style={{
-        display: "inline-block",
-        padding: "16px 28px",
-        background: "#2563eb",
-        color: "white",
-        borderRadius: "9999px",
-        textDecoration: "none",
-      }}
+      className="
+        inline-flex
+        items-center
+        justify-center
+        rounded-full
+        bg-blue-600
+        px-10
+        py-[17px]
+        text-[15px]
+        font-semibold
+        text-white
+        transition-all
+        duration-300
+        hover:-translate-y-1
+        hover:bg-blue-700
+      "
     >
       {children}
-    </Link>
+    </a>
   );
 }
