@@ -16,14 +16,12 @@ export default function PremiumCard({
         overflow-hidden
         rounded-[32px]
         border
-        border-white/70
-        bg-white/72
-        backdrop-blur-2xl
-        shadow-[0_30px_90px_rgba(15,23,42,0.10)]
+        border-slate-200
+        bg-white
+        shadow-[0_20px_50px_rgba(15,23,42,0.08)]
         ${className}
       `}
     >
-      {/* Soft Light */}
 
       <div
         className="
@@ -31,17 +29,16 @@ export default function PremiumCard({
           absolute
           inset-0
           bg-gradient-to-br
-          from-white/60
+          from-white
           via-transparent
-          to-blue-100/10
+          to-blue-50/40
         "
       />
 
       <div className="relative z-10">
-
         {children}
-
       </div>
+
     </div>
   );
 }
