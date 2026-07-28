@@ -4,12 +4,14 @@ type PremiumButtonProps = {
   href: string;
   children: ReactNode;
   variant?: "primary" | "secondary";
+  className?: string;
 };
 
 export default function PremiumButton({
   href,
   children,
   variant = "primary",
+  className = "",
 }: PremiumButtonProps) {
   return (
     <a
@@ -19,16 +21,12 @@ export default function PremiumButton({
         items-center
         justify-center
         rounded-full
-
         px-10
         py-[17px]
-
         text-[15px]
         font-semibold
-
         transition-all
         duration-300
-
         hover:-translate-y-1
 
         ${
@@ -48,6 +46,8 @@ export default function PremiumButton({
               hover:text-blue-600
             `
         }
+
+        ${className}
       `}
     >
       {children}
