@@ -54,7 +54,7 @@ export default function Header() {
 
           <div className="hidden md:block">
             <a
-              href="#kontakt"
+              href="/executive-briefing"
               className="rounded-full bg-gradient-to-b from-blue-600 to-blue-700 px-7 py-3 text-[15px] font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.25)] transition-all duration-300 hover:-translate-y-[2px]"
             >
               Gespräch vereinbaren
