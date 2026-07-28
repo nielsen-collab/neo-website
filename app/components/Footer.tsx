@@ -36,9 +36,11 @@ export default function Footer({
             </p>
 
             <div className="mt-12 flex justify-center lg:mt-16">
-              <PremiumButton href="mailto:info@neo.de">
+
+              <PremiumButton href="/executive-briefing">
                 Gespräch vereinbaren
               </PremiumButton>
+
             </div>
 
             <div className="mx-auto mt-16 max-w-[1100px] lg:mt-28">
@@ -60,6 +62,7 @@ export default function Footer({
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 md:gap-10">
+
             <a
               href="/impressum"
               className="transition-colors duration-300 hover:text-slate-900"
@@ -73,6 +76,7 @@ export default function Footer({
             >
               Datenschutz
             </a>
+
           </div>
 
         </div>
