@@ -1,14 +1,14 @@
 import { ReactNode } from "react";
 
 type PremiumButtonProps = {
-  href: string;
+  href?: string;
   children: ReactNode;
   variant?: "primary" | "secondary";
   className?: string;
 };
 
 export default function PremiumButton({
-  href,
+  href = "#",
   children,
   variant = "primary",
   className = "",
@@ -21,12 +21,16 @@ export default function PremiumButton({
         items-center
         justify-center
         rounded-full
+
         px-10
         py-[17px]
+
         text-[15px]
         font-semibold
+
         transition-all
         duration-300
+
         hover:-translate-y-1
 
         ${
