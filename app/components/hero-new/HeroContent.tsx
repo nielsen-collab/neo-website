@@ -75,17 +75,17 @@ export default function HeroContent() {
 
       {/* Arbeitsgrundlagen */}
 
-      <div className="mt-16 md:mt-20">
+      <div className="mt-10 md:mt-16">
 
         <PremiumDivider />
 
-        <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.32em] text-slate-500 md:mt-8 md:text-[12px] md:tracking-[0.38em]">
+        <p className="mt-5 text-[11px] font-semibold uppercase tracking-[0.32em] text-slate-500 md:mt-8 md:text-[12px] md:tracking-[0.38em]">
 
           Arbeitsgrundlagen
 
         </p>
 
-        <p className="mt-4 text-[14px] leading-8 text-slate-600 md:mt-5 md:text-[15px]">
+        <p className="mt-3 text-[14px] leading-8 text-slate-600 md:mt-5 md:text-[15px]">
 
           DIN EN 16247
 

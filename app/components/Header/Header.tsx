@@ -6,7 +6,17 @@ import Image from "next/image";
 import DesktopNavigation from "./DesktopNavigation";
 import MobileMenu from "./MobileMenu";
 
-export default function Header() {
+type HeaderProps = {
+  activeSection?: string;
+  buttonText?: string;
+  buttonHref?: string;
+};
+
+export default function Header({
+  activeSection = "",
+  buttonText = "Gespräch vereinbaren",
+  buttonHref = "/executive-briefing",
+}: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -44,18 +54,18 @@ export default function Header() {
               width={300}
               height={100}
               priority
-              className="h-14 md:h-16 w-auto transition-transform duration-500 group-hover:scale-[1.02]"
+              className="h-14 w-auto transition-transform duration-500 group-hover:scale-[1.02] md:h-16"
             />
           </a>
 
-          <DesktopNavigation activeSection="" />
+          <DesktopNavigation activeSection={activeSection} />
 
           <div className="hidden md:block">
             <a
-              href="#kontakt"
+              href={buttonHref}
               className="rounded-full bg-gradient-to-b from-blue-600 to-blue-700 px-7 py-3 text-[15px] font-semibold text-white shadow-[0_18px_40px_rgba(37,99,235,0.25)] transition-all duration-300 hover:-translate-y-[2px]"
             >
-              Gespräch vereinbaren
+              {buttonText}
             </a>
           </div>
 
@@ -72,7 +82,10 @@ export default function Header() {
         </div>
       </header>
 
-      <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
+      <MobileMenu
+        open={menuOpen}
+        onClose={() => setMenuOpen(false)}
+      />
     </>
   );
 }

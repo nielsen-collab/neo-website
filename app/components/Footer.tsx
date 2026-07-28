@@ -11,7 +11,13 @@ export default function Footer({
   showCTA = true,
 }: FooterProps) {
   return (
-    <PremiumSurface className="py-24 lg:py-36">
+    <PremiumSurface
+      className={
+        showCTA
+          ? "pt-10 pb-16 lg:pt-14 lg:pb-24"
+          : "pt-10 pb-16 lg:pt-20 lg:pb-24"
+      }
+    >
       <div className="mx-auto max-w-[1300px] px-6 md:px-10 lg:px-20">
 
         {showCTA && (

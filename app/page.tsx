@@ -21,10 +21,10 @@ export default function Home() {
           <Hero />
         </section>
 
+        {/* TEST: FadeIn entfernt */}
+
         <section id="services">
-          <FadeIn>
-            <Services />
-          </FadeIn>
+          <Services />
         </section>
 
         <section id="whyneo">

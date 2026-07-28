@@ -2,15 +2,15 @@ import PremiumDivider from "../../components/ui/PremiumDivider";
 
 export default function ConversationHeroContent() {
   return (
-    <div className="relative max-w-[620px]">
+    <div className="relative max-w-[610px]">
 
       {/* Eyebrow */}
 
-      <div className="mb-7 flex items-center gap-4">
+      <div className="mb-12 flex items-center gap-4 md:mb-14">
 
         <span className="h-3 w-3 rounded-full bg-blue-600 shadow-[0_0_18px_rgba(37,99,235,0.35)]" />
 
-        <p className="text-[13px] font-semibold uppercase tracking-[0.42em] text-blue-600">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-blue-600 md:text-[13px] md:tracking-[0.45em]">
           NIELSEN ENERGY OPERATIONS
         </p>
 
@@ -18,23 +18,13 @@ export default function ConversationHeroContent() {
 
       {/* Headline */}
 
-      <h1 className="leading-[0.94] tracking-[-0.06em]">
+      <h1 className="text-[46px] font-extralight leading-[1.02] tracking-[-0.05em] sm:text-[58px] lg:text-[76px] lg:leading-[0.98] lg:tracking-[-0.055em]">
 
-        <span className="block text-[74px] font-extralight text-slate-900">
-          Gute
-        </span>
-
-        <span className="block text-[74px] font-extralight text-slate-900">
-          Entscheidungen
-        </span>
-
-        <span className="block text-[74px] font-extralight text-slate-900">
+        <span className="text-slate-900">
+          Gute Entscheidungen
+          <br />
           beginnen mit
-        </span>
-
-        <div className="h-6" />
-
-        <span className="block text-[64px] font-extralight leading-[0.98] tracking-[-0.055em] text-blue-600">
+          <br />
           einem Gespräch.
         </span>
 
@@ -42,25 +32,18 @@ export default function ConversationHeroContent() {
 
       {/* Divider */}
 
-      <div className="mt-7 w-28">
+      <div className="mt-8 w-20 md:mt-10 md:w-24">
         <PremiumDivider />
       </div>
 
       {/* Text */}
 
-      <p className="mt-7 max-w-[580px] text-[23px] font-light leading-[1.75] text-slate-600">
+      <p className="mt-8 max-w-[540px] text-[18px] leading-[1.8] text-slate-600 md:mt-10 md:text-[20px] lg:text-[22px] lg:leading-[1.9]">
 
-        In einem persönlichen Erstgespräch betrachten wir Ihre
-        Ausgangssituation gemeinsam und identifizieren die größten
-        strategischen Hebel für Ihr Unternehmen.
-
-      </p>
-
-      {/* Statement */}
-
-      <p className="mt-6 text-[22px] font-extralight tracking-[-0.02em] text-slate-700">
-
-        Vertraulich. Persönlich. Auf Augenhöhe.
+        Jede Entscheidung beginnt mit einem offenen Austausch.
+        Gemeinsam betrachten wir Ihre Ausgangssituation,
+        bewerten Chancen und Risiken und entwickeln
+        belastbare Entscheidungsgrundlagen für Ihr Unternehmen.
 
       </p>
 

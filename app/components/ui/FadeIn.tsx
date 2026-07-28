@@ -19,6 +19,12 @@ export default function FadeIn({
 
     if (!element) return;
 
+    // Browser ohne IntersectionObserver
+    if (!("IntersectionObserver" in window)) {
+      setVisible(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -27,7 +33,8 @@ export default function FadeIn({
         }
       },
       {
-        threshold: 0.15,
+        threshold: 0,
+        rootMargin: "150px 0px",
       }
     );
 
@@ -43,13 +50,11 @@ export default function FadeIn({
         transition-all
         duration-700
         ease-out
-
         ${
           visible
             ? "translate-y-0 opacity-100"
             : "translate-y-8 opacity-0"
         }
-
         ${className}
       `}
     >

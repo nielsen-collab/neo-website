@@ -16,14 +16,28 @@ export default function PremiumPanel({
         overflow-hidden
         rounded-[34px]
         border
-        border-white/70
+        border-white/45
         bg-white/72
         backdrop-blur-3xl
-        shadow-[0_30px_90px_rgba(15,23,42,0.07)]
+
+        shadow-[
+          0_8px_20px_rgba(15,23,42,0.04),
+          0_28px_70px_rgba(15,23,42,0.06),
+          0_55px_140px_rgba(15,23,42,0.05)
+        ]
+
         transition-all
-        duration-500
+        duration-700
+        ease-[cubic-bezier(0.25,1,0.5,1)]
+
         hover:-translate-y-[2px]
-        hover:shadow-[0_42px_110px_rgba(15,23,42,0.10)]
+
+        hover:shadow-[
+          0_12px_28px_rgba(15,23,42,0.05),
+          0_36px_90px_rgba(15,23,42,0.08),
+          0_70px_170px_rgba(15,23,42,0.07)
+        ]
+
         ${className}
       `}
     >
@@ -34,26 +48,26 @@ export default function PremiumPanel({
         <div
           className="
             absolute
-            -right-20
-            -top-20
-            h-56
-            w-56
+            -right-24
+            -top-24
+            h-72
+            w-72
             rounded-full
-            bg-blue-500/[0.05]
-            blur-[90px]
+            bg-blue-500/[0.045]
+            blur-[120px]
           "
         />
 
         <div
           className="
             absolute
-            -left-12
+            -left-16
             bottom-0
-            h-44
-            w-44
+            h-56
+            w-56
             rounded-full
-            bg-slate-200/40
-            blur-[70px]
+            bg-slate-200/35
+            blur-[90px]
           "
         />
 
@@ -61,7 +75,7 @@ export default function PremiumPanel({
 
       {/* obere Lichtkante */}
 
-      <div className="pointer-events-none absolute inset-x-8 top-0 h-px bg-white/60" />
+      <div className="pointer-events-none absolute inset-x-8 top-0 h-px bg-white/40" />
 
       {/* Content */}
 

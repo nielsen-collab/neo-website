@@ -9,7 +9,6 @@ export default function CompetencePanel() {
     <div
       className="
         relative
-        mt-5
         overflow-hidden
         rounded-[28px]
         border

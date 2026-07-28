@@ -115,7 +115,7 @@ export default function HeroImage() {
 
         {/* Executive Card */}
 
-        <div className="mt-5 md:mt-6">
+        <div className="mt-8 md:mt-6">
           <CompetencePanel />
         </div>
 

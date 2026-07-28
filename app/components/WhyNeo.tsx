@@ -22,7 +22,7 @@ const principles = [
 
 export default function WhyNeo() {
   return (
-    <PremiumSurface className="py-24 lg:py-32">
+    <PremiumSurface className="pt-14 pb-16 lg:pt-24 lg:pb-24">
 
       <div className="mx-auto max-w-[1500px] px-6 md:px-10 lg:px-20">
 
@@ -54,7 +54,7 @@ export default function WhyNeo() {
 
           </h2>
 
-          <p className="mt-8 max-w-[760px] text-[18px] leading-[1.8] text-slate-600 md:mt-10 md:text-[20px] lg:mt-12 lg:text-[24px] lg:leading-[1.8]">
+          <p className="mt-8 max-w-[760px] text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-10 lg:text-[24px] lg:leading-[1.8]">
 
             Energie ist niemals Selbstzweck.
             Sie beeinflusst Investitionen,
@@ -68,7 +68,7 @@ export default function WhyNeo() {
 
         {/* CARDS */}
 
-        <div className="mt-16 grid gap-6 lg:mt-24 lg:gap-8 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 lg:mt-20 lg:gap-8 lg:grid-cols-3">
 
           {principles.map((item) => (
 

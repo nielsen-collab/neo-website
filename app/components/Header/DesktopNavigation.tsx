@@ -6,7 +6,9 @@ type Props = {
   activeSection: string;
 };
 
-export default function DesktopNavigation({ activeSection }: Props) {
+export default function DesktopNavigation({
+  activeSection,
+}: Props) {
   return (
     <nav className="hidden xl:flex items-center gap-12">
       {navigation.map((item) => {

@@ -7,55 +7,56 @@ const situations = [
     number: "01",
     title: "Gesetzliche Anforderungen sicher erfüllen.",
     text:
-      "DIN EN 16247, EnEfG, ISO 50001 oder DIN V 18599 sind häufig der Anlass eines Projekts. Für NEO sind sie der Ausgangspunkt für bessere unternehmerische Entscheidungen.",
+      "Gesetzliche Anforderungen wie DIN EN 16247, EnEfG, ISO 50001 oder DIN V 18599 sind häufig der Anlass eines Projekts. Für NEO bilden sie jedoch nicht das Ziel, sondern die Grundlage für belastbare unternehmerische Entscheidungen.",
     featured: true,
   },
   {
     number: "02",
     title: "Energiekosten strategisch steuern.",
     text:
-      "Energie beeinflusst längst Wettbewerbsfähigkeit und Investitionen. Wir schaffen Transparenz über Kosten, Potenziale und wirtschaftliche Auswirkungen.",
+      "Energie beeinflusst längst Wettbewerbsfähigkeit, Investitionen und Unternehmenswert. Wir schaffen Transparenz über Kosten, Potenziale und wirtschaftliche Auswirkungen.",
   },
   {
     number: "03",
     title: "Investitionen sicher bewerten.",
     text:
-      "Gebäude, Technik und Energieversorgung sind langfristige Entscheidungen. Wir liefern belastbare Grundlagen für wirtschaftlich sinnvolle Investitionen.",
+      "Gebäude, Technik und Energieversorgung sind langfristige Entscheidungen. Wir liefern belastbare Entscheidungsgrundlagen für wirtschaftlich sinnvolle Investitionen.",
   },
   {
     number: "04",
     title: "Fördermittel gezielt nutzen.",
     text:
-      "Investitionen werden wirtschaftlicher, wenn Förderprogramme von Beginn an strategisch berücksichtigt werden.",
+      "Förderprogramme entfalten ihren größten Nutzen, wenn sie von Beginn an Teil der strategischen Investitionsplanung sind.",
   },
   {
     number: "05",
     title: "Energie dauerhaft verankern.",
     text:
-      "Wir entwickeln Strukturen, damit Energie nicht Projekt bleibt, sondern Teil Ihrer Unternehmensstrategie wird.",
+      "Wir entwickeln Strukturen, damit Energie nicht Projekt bleibt, sondern zu einem festen Bestandteil Ihrer Unternehmensstrategie wird.",
   },
 ];
 
 export default function Services() {
   return (
-    <PremiumSurface className="py-24 lg:py-40">
+    <PremiumSurface className="pt-14 pb-16 lg:pt-24 lg:pb-24">
 
       <div className="mx-auto max-w-[1500px] px-6 md:px-10 lg:px-20">
 
         <PremiumHeading
-          eyebrow="TYPISCHE AUSGANGSSITUATIONEN"
-          title="Wann Unternehmen zu NEO kommen."
+          eyebrow="WANN UNTERNEHMEN HANDELN MÜSSEN"
+          title="Die Pflicht ist oft der Anlass. Der Mehrwert ist die Entscheidung."
         />
 
-        <p className="mt-6 max-w-[860px] text-[18px] leading-[1.8] text-slate-600 md:mt-8 md:text-[20px] lg:text-[22px] lg:leading-[1.9]">
+        <p className="mt-8 max-w-[900px] text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-10 lg:text-[22px] lg:leading-[1.9]">
 
-          Nicht jede Herausforderung beginnt mit Energie.
-          Aber viele unternehmerische Entscheidungen werden durch Energie
-          beeinflusst. Genau dort beginnt die Zusammenarbeit mit NEO.
+          Nicht jede unternehmerische Entscheidung beginnt mit Energie.
+          Energie beeinflusst jedoch Investitionen, Risiken,
+          Finanzierung und Wettbewerbsfähigkeit. Genau dort beginnt
+          die Zusammenarbeit mit NEO.
 
         </p>
 
-        <div className="mt-14 grid gap-6 lg:mt-20 lg:gap-8 lg:grid-cols-3">
+        <div className="mt-14 grid gap-6 lg:mt-20 lg:grid-cols-3 lg:gap-8">
 
           {situations.map((item, index) => (
 
@@ -104,7 +105,7 @@ export default function Services() {
 
                     <div className="text-[11px] font-semibold uppercase tracking-[0.30em] text-slate-400 md:text-[12px] md:tracking-[0.35em]">
 
-                      Typische Themen
+                      Regulatorische Grundlagen
 
                     </div>
 

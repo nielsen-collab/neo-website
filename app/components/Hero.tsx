@@ -3,7 +3,7 @@ import HeroImage from "./HeroImage";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-24 pb-28">
+    <section className="relative overflow-hidden pt-24 pb-12">
 
       {/* Light */}
 

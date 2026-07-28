@@ -1,6 +1,8 @@
 "use client";
 
-import { navigation } from "./navigation";
+import MenuHeader from "./MenuHeader";
+import MenuNavigation from "./MenuNavigation";
+import MenuFooter from "./MenuFooter";
 
 type Props = {
   open: boolean;
@@ -16,10 +18,14 @@ export default function MobileMenu({
       className={`
         fixed
         inset-0
-        z-40
+        z-[999]
+        overflow-y-auto
+
         bg-white
+
         transition-all
         duration-500
+
         ${
           open
             ? "pointer-events-auto opacity-100"
@@ -27,47 +33,137 @@ export default function MobileMenu({
         }
       `}
     >
-      <div className="flex h-full flex-col justify-center px-10">
+      {/* Ambient Light */}
 
-        {navigation.map((item) => (
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
 
-          <a
-            key={item.id}
-            href={item.href}
-            onClick={onClose}
+        <div
+          className="
+            absolute
+            left-1/2
+            top-[-260px]
+
+            h-[620px]
+            w-[620px]
+
+            -translate-x-1/2
+
+            rounded-full
+
+            bg-blue-500/[0.025]
+
+            blur-[180px]
+          "
+        />
+
+      </div>
+
+      <div className="relative z-10 flex min-h-screen flex-col">
+
+        {/* Header */}
+
+        <div className="px-8 pt-8">
+
+          <MenuHeader
+            onClose={onClose}
+          />
+
+        </div>
+
+        {/* Stage */}
+
+        <section className="px-8 pt-10">
+
+          <div className="h-px w-24 bg-gradient-to-r from-blue-500/60 to-transparent" />
+
+          <p
             className="
-              border-b
-              border-slate-200
-              py-6
-              text-[34px]
+              mt-8
+
+              max-w-[420px]
+
+              text-[13px]
+
+              font-medium
+
+              uppercase
+
+              tracking-[0.32em]
+
+              text-slate-400
+            "
+          >
+            Nielsen Energy Operations
+          </p>
+
+          <h2
+            className="
+              mt-6
+
+              max-w-[520px]
+
+              text-[46px]
+
               font-extralight
-              tracking-[-0.03em]
+
+              leading-[0.98]
+
+              tracking-[-0.06em]
+
               text-slate-900
             "
           >
-            {item.label}
-          </a>
+            Analysen schaffen
+            <br />
+            Erkenntnisse.
+          </h2>
 
-        ))}
+          <h2
+            className="
+              mt-5
 
-        <a
-          href="#kontakt"
-          onClick={onClose}
-          className="
-            mt-12
-            rounded-full
-            bg-blue-600
-            py-4
-            text-center
-            text-[18px]
-            font-semibold
-            text-white
-          "
-        >
-          Gespräch vereinbaren
-        </a>
+              max-w-[520px]
+
+              text-[46px]
+
+              font-extralight
+
+              leading-[0.98]
+
+              tracking-[-0.06em]
+
+              text-blue-600
+            "
+          >
+            Entscheidungen schaffen
+            <br />
+            Zukunft.
+          </h2>
+
+        </section>
+
+        {/* Navigation */}
+
+        <section className="flex-1 px-8 pt-14">
+
+          <MenuNavigation
+            onNavigate={onClose}
+          />
+
+        </section>
+
+        {/* Footer */}
+
+        <section className="px-8 pb-8">
+
+          <MenuFooter
+            onNavigate={onClose}
+          />
+
+        </section>
 
       </div>
+
     </div>
   );
 }

@@ -15,8 +15,8 @@ export const navigation = [
     id: "founder",
   },
   {
-    label: "Kontakt",
-    href: "#kontakt",
-    id: "kontakt",
+    label: "NEO Office",
+    href: "/office",
+    id: "office",
   },
 ];

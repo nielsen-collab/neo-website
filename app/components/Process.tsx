@@ -26,7 +26,7 @@ const process = [
 
 export default function Process() {
   return (
-    <PremiumSurface className="py-24 lg:py-40">
+    <PremiumSurface className="pt-14 pb-16 lg:pt-24 lg:pb-24">
 
       <div className="mx-auto max-w-[1500px] px-6 md:px-10 lg:px-20">
 
@@ -61,8 +61,6 @@ export default function Process() {
                 hover:shadow-[0_40px_100px_rgba(37,99,235,0.18)]
               "
             >
-
-              {/* Ambient Light */}
 
               <div className="pointer-events-none absolute inset-0">
 

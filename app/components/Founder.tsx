@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Founder() {
   return (
-    <section className="relative overflow-hidden py-24 lg:py-40">
+    <section className="relative overflow-hidden pt-16 pb-20 lg:pt-28 lg:pb-28">
 
       {/* Ambient Light */}
 
@@ -98,9 +98,9 @@ export default function Founder() {
 
           </h2>
 
-          <div className="mt-8 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-12 lg:w-24" />
+          <div className="mt-8 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-10 lg:w-24" />
 
-          <p className="mt-8 text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-12 lg:text-[22px] lg:leading-[1.9]">
+          <p className="mt-8 text-[18px] leading-[1.8] text-slate-600 md:text-[20px] lg:mt-10 lg:text-[22px] lg:leading-[1.9]">
 
             Ich habe NEO gegründet, weil ich überzeugt bin,
             dass Unternehmen keine weiteren Berichte benötigen.
@@ -124,9 +124,7 @@ export default function Founder() {
 
           </p>
 
-          {/* Statement */}
-
-          <div className="mt-10 border-l-2 border-blue-600 pl-6 lg:mt-16 lg:pl-8">
+          <div className="mt-10 border-l-2 border-blue-600 pl-6 lg:mt-14 lg:pl-8">
 
             <p className="text-[24px] font-extralight leading-[1.5] tracking-[-0.03em] text-slate-900 md:text-[28px] lg:text-[32px]">
 
@@ -140,7 +138,7 @@ export default function Founder() {
 
           </div>
 
-          <div className="mt-10 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-16 lg:w-24" />
+          <div className="mt-10 h-px w-20 bg-gradient-to-r from-blue-600/40 to-transparent lg:mt-14 lg:w-24" />
 
           <p className="mt-6 text-[17px] font-medium tracking-[0.02em] text-slate-900 lg:mt-8 lg:text-[18px]">
 
