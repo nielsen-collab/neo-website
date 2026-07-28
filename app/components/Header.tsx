@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-import DesktopNavigation from "./DesktopNavigation";
-import MobileMenu from "./MobileMenu";
+import DesktopNavigation from "./Header/DesktopNavigation";
+import MobileMenu from "./Header/MobileMenu";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,6 +13,7 @@ export default function Header() {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30);
     window.addEventListener("scroll", onScroll);
+
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -45,7 +46,7 @@ export default function Header() {
               width={300}
               height={100}
               priority
-              className="h-14 md:h-16 w-auto transition-transform duration-500 group-hover:scale-[1.02]"
+              className="h-14 w-auto transition-transform duration-500 group-hover:scale-[1.02] md:h-16"
             />
           </a>
 
